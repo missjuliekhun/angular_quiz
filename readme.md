@@ -123,7 +123,7 @@ What is an IIFE, and why might you use it?
 
 **Your answer:**
 
-> ...
+> IFFE is an Immediately Invoked Function, and I might use it to place the libraries of my app within this scope. Global objects can be passed through and reference the local scope.
 
 ## Question 7
 
@@ -131,7 +131,7 @@ What is the `ui-sref` directive, and how is it used?
 
 **Your answer:**
 
-> ...
+> Allows us to bind variables to URLs, and a certain state.
 
 ## Question 8
 
