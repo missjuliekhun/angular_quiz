@@ -33,7 +33,7 @@ Which *one* of the following buttons would *not* be displayed?
 [ ] A: <button data-ng-if="status">Click</button>
 [ ] B: <button data-ng-show="status">Click</button>
 [ ] C: <button data-ng-hide="status">Click</button>
-[ ] D: <button>{{status}}</button>
+[x] D: <button>{{status}}</button>
 ```
 
 ## Question 3
@@ -47,6 +47,9 @@ One button below has an `ng-click` attribute; the other has `data-ng-click` inst
 
 **Your answer:**
 
+The difference is that data-ng-click is used when validation has to be performed for the app. ng-click is just the more common way to write a directive. Functionality wise, they are the same thing.
+
+
 > ...
 
 ## Question 4
@@ -54,6 +57,8 @@ One button below has an `ng-click` attribute; the other has `data-ng-click` inst
 Which of the following demonstrates the best usage of `ng-app`? **Explain your answer.**
 
 **Your answer:**
+
+Answer 'A' would be the best usage of 'ng-app' because that is the name of our app in which we want all of our documents to reference as far as scope goes... this is the root element of our Angular application.
 
 > ...
 
@@ -108,7 +113,7 @@ Which one of the following concepts does this best illustrate?
 ```
 [ ] A: Modularity
 [ ] B: MVC
-[ ] C: Two-way data-binding
+[x] C: Two-way data-binding
 [ ] D: Separation of concerns
 ```
 
